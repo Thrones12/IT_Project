@@ -190,21 +190,25 @@ export class CartService {
       this.cartData$.next({... this.cartDataServer});
     } else{
       data.numInCart--;
+
+      if(data.numInCart < 1){
+        //xoa san pham tu cart
+        this.DeleteProductFromCart(index);
+        this.cartData$.next({... this.cartDataServer});
+      }else{
+        this.cartData$.next({... this.cartDataServer});
+        this.cartDataClient.prodData[index].incart = data.numInCart;
+        // total amount
+        this.CalculateTotal();
+        this.cartDataClient.total = this.cartDataServer.total;
+        localStorage.setItem('cart', JSON.stringify(this.cartDataClient));
+      }
     }
-    if(data.numInCart < 1){
-      //xoa san pham tu cart
-      this.cartData$.next({... this.cartDataServer});
-    }else{
-      this.cartData$.next({... this.cartDataServer});
-      this.cartDataClient.prodData[index].incart = data.numInCart;
-      // total amount
-      this.CalculateTotal();
-      this.cartDataClient.total = this.cartDataServer.total;
-      localStorage.setItem('cart', JSON.stringify(this.cartDataClient));
-    }
+
   }
   DeleteProductFromCart(index: number){
-    if(window.confirm('Bạn có chắc muốn xoá sản phẩm?')){
+    if(window.confirm('Bạn có chắc muốn xoá sản phẩm?'))
+    {
       this.cartDataServer.data.splice(index, 1);
       this.cartDataClient.prodData.splice(index, 1);
       //cal total amount
@@ -245,7 +249,7 @@ export class CartService {
           userId: userId,
           products: this.cartDataClient.prodData
         }).subscribe((data: OrderResponse)=>{
-
+          console.log("Da thanh toan")
           this.orderService.getSingleOrder(data.order_id).then(prods => {
             if(data.success){
               const navigationExtras: NavigationExtras = {

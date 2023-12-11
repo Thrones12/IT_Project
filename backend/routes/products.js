@@ -105,7 +105,7 @@ router.get('/category/:catName',(req,res) =>{
     database.table('products as p')
         .join([{
             table: 'categories as c',
-            on: `c.id = p.cat_id WHERE c.title LIKE '%${cat_title}'` //Code không khác gì lấy toàn bộ sản phẩm nhưng thêm điều kiện lấy cat ở đây
+            on: `c.id = p.cat_id WHERE c.title LIKE '%${cat_title}%'` //Code không khác gì lấy toàn bộ sản phẩm nhưng thêm điều kiện lấy cat ở đây
         }])
         .withFields(['c.title as category',
             'p.title as name',

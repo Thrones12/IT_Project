@@ -12,7 +12,7 @@ export class OrderService {
 
 
   getSingleOrder(orderId: number){
-    return this.http.get<ProductResponseModel[]>(this.Server_Url+ '/orders' + orderId).toPromise(); ;
+    return this.http.get<ProductResponseModel[]>(this.Server_Url+ '/orders/' + orderId).toPromise();
   }
 }
 

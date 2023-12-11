@@ -1,1 +1,45 @@
-<p>thankyou works!</p>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="jumbotron text-center">
+        <h1 class="display-3">Cảm ơn bạn đã mua hàng!</h1>
+        <p class="lead"><strong>Kiểm tra email của bạn</strong> để nhận hoá đơn.</p>
+        <hr>
+        <p>
+
+        <p>Mã giao dịch : <strong>{{orderId}}</strong></p>
+      </div>
+
+      <table class="table table-striped">
+        <thead>
+        <tr>
+          <th>Hình ảnh</th>
+          <th>Tên</th>
+          <th>Đơn giá</th>
+          <th>Số lượng</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let p of products">
+          <td>
+            <img [src]="p.image" alt="{{p.title}}" class="img-thumbnail" width="100px">
+          </td>
+          <td>{{p.title}}</td>
+          <td>{{p.price | currency:'USD'}}</td>
+          <td>{{p.quantityOrdered}}</td>
+        </tr>
+
+        <tr class="border-0">
+          <td style="border: none;"></td>
+          <td></td>
+          <td>Tổng tiền</td>
+          <td>{{cartTotal | currency:'USD'}}</td>
+
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+

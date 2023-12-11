@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: #2B2D42;
+  color: #000000;
   font-weight: 500;
   -webkit-transition: 0.2s color;
   transition: 0.2s color;
@@ -2054,7 +2054,7 @@ textarea.input {
 }
 
 .footer-payments li a {
-  color: #15161D;
+  color: #FFFFFF;
   font-size: 36px;
   display: block;
 }
@@ -2132,6 +2132,10 @@ textarea.input {
   position: static;
   margin: 15px 0px;
 }
+button.btn.btn-outline-danger.btn-sm.my-2.btn-block.order-submit {
+  color: #197149;
+  border-color: #197149;
+}
 
 /*=========================================================
 	13 -> RESPONSIVE
@@ -2190,3 +2194,4 @@ textarea.input {
     margin-top: 10px;
   }
 }
+
