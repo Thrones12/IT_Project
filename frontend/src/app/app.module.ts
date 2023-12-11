@@ -21,7 +21,8 @@ import { SocialLoginModule, SocialAuthServiceConfig } from '@abacritt/angularx-s
 import {
   GoogleLoginProvider, GoogleSigninButtonModule
 } from '@abacritt/angularx-social-login';
-
+import { PaypalButtonComponent } from './components/partials/paypal-button/paypal-button.component';
+import { NgxPayPalModule } from 'ngx-paypal';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import {
     ProductComponent,
     ThankyouComponent,
     LoginComponent,
-    ProfileComponent
+    ProfileComponent,
+    PaypalButtonComponent
   ],
   imports: [
     BrowserModule,
@@ -46,7 +48,8 @@ import {
     ToastrModule.forRoot(),
     FormsModule,
     SocialLoginModule,
-    GoogleSigninButtonModule
+    GoogleSigninButtonModule,
+    NgxPayPalModule
   ],
   providers: [
     // provideClientHydration(),

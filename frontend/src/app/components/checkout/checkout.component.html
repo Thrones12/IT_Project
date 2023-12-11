@@ -135,24 +135,23 @@
         </div>
         <div class="payment-method">
           <div class="input-radio">
-            <input type="radio" name="payment" id="payment-3">
+            <input type="radio" name="payment" id="payment-3" checked disabled>
             <label for="payment-3">
               <span></span>
-              VNPAY
+              PayPal
             </label>
             <div class="caption">
-              <p>VNPAY là một trong những cổng thanh toán trực tuyến lớn nhất VietNam, cho phép bạn thanh toán nhanh chóng và an toàn.</p>
+              <p>PayPal là một trong những cổng thanh toán trực tuyến lớn nhất TG, cho phép bạn thanh toán nhanh chóng và an toàn.</p>
             </div>
           </div>
         </div>
-        <div class="input-checkbox">
-          <input type="checkbox" id="terms">
-          <label for="terms">
-            <span></span>
-            Đồng ý với <a href="#">điều khoản</a>
-          </label>
-        </div>
         <button class="btn btn-outline-danger btn-sm my-2 btn-block order-submit" (click)="onCheckout()">Thanh toán</button>
+        <div id="payment_options"></div>
+        <div class="buttons">
+          <paypal-button [cartTotal] = "cartTotal">
+
+          </paypal-button>
+        </div>
       </div>
       <!-- /Order Details -->
     </div>
