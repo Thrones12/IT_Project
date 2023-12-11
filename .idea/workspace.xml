@@ -4,7 +4,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4923c5b4-0816-485b-8b04-648ebab41c7b" name="Changes" comment="" />
+    <list default="true" id="4923c5b4-0816-485b-8b04-648ebab41c7b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/models/cart.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/models/product.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/css/nouislider.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/css/slick-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/css/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/slick.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/slick.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/slick.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/slick.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/img/hotdeal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/img/product01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/img/product02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/img/product03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/img/product04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/img/product05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/img/product06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/img/product07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/img/product08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/img/product09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/img/shop01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/img/shop02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/img/shop03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/js/jquery.zoom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/js/nouislider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/js/slick.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/products.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,11 +58,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="ProjectId" id="2ZHoEF0JVVNsckGKEM7t3TGsq6a" />
@@ -41,7 +86,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;21.1.0&quot;,
     &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.10.4&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/PC05/Downloads/mega-back-master/mega-back-master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/PC05/Desktop/itproject_ecommerce/frontend/src/assets&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -49,6 +94,7 @@
     &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\PC05\\Desktop\\itproject_ecommerce\\frontend\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -57,6 +103,14 @@
     ]
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PC05\Desktop\itproject_ecommerce\frontend\src\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PC05\Desktop\itproject_ecommerce\frontend\src\app\models" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -71,6 +125,9 @@
       <workItem from="1702107861885" duration="55000" />
       <workItem from="1702107927001" duration="1475000" />
       <workItem from="1702109413788" duration="21695000" />
+      <workItem from="1702164603548" duration="2669000" />
+      <workItem from="1702173928594" duration="40619000" />
+      <workItem from="1702251278775" duration="11757000" />
     </task>
     <servers />
   </component>
