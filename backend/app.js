@@ -39,8 +39,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 // Import Routes
-
+const usersRouter = require('./routes/users');
 const productsRouter = require('./routes/products');
+const authRouter = require('./routes/auth');
 const orderRouter = require('./routes/orders');
 
 // Define Routes
@@ -53,7 +54,9 @@ const orderRouter = require('./routes/orders');
  */
 
 
+app.use('/api/users', usersRouter);
 app.use('/api/products', productsRouter);
+app.use('/api/auth', authRouter);
 app.use('/api/orders', orderRouter);
 
 module.exports = app;
